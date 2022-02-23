@@ -10,7 +10,7 @@ Chrome: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfob
 
 Firefox: https://addons.mozilla.org/de/firefox/addon/styl-us/
 
-Install the browser extension, click the Stylus icon in your browser, click the Manage button **and import the spectrum.txt code**. Save and the Spectrum website should look a little different.
+Install the browser extension, click the Stylus icon in your browser, click the Manage button, click Import, copy the code from spectrum.txt into the import window. Save and the Spectrum website should now look slightly different.
 
 Take a look at the screenshots. Before/After.
 
