@@ -1,5 +1,5 @@
 @-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community/SC"), url-prefix("https://robertsspaceindustries.com/spectrum/settings/direct-messages") {
-/* SPECTRUM v5 c.0.4 */
+/* SPECTRUM v5 c.0.5 */
 /* The CSS is exclusively adapted to the Dark theme */
 /* Import this CSS code into the browser extension Stylus to get a better coloring of the Spectrum web page */
 /* For example: https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/better-look-and-feel-of-the-spectrum-website */
@@ -95,6 +95,8 @@
 #page.forum-channel .channel-header .info .info-header .current-label .label-name {padding: 8px 5px 8px 9px;}
 #page.forum-channel .channel-header .info .info-header .current-label .bookmark {margin-top: 6px;}
 
+.lobby-member-presences>.members-list .lobby-presence-item .member-presence-info {font-style: normal;color: #bc97e9;margin-top: -3px;}
+
 /* status */
 .theme-dark .member-presence.online use,
 #sidebar .member-presence-menu-button.online,
@@ -107,7 +109,7 @@
 .c-sidebar-header__avatar--away{fill: #eaa41a;}
 .theme-dark .member-presence.offline use,
 #sidebar .member-presence-menu-button.do_not_disturb,
-.c-sidebar-header__avatar--do_not_disturb{fill: #b93c3c;}
+.c-sidebar-header__avatar--do_not_disturb{fill: #313f54;}
 .theme-dark .quick-access-header .online-count {color: #39c98f; font-weight: bold;}
 /* status end */
 
@@ -165,9 +167,11 @@
 .theme-dark button.vote .count{font-weight: 600;}
 
 #page.forum-channel .row .column.last-activity>.member .member-avatar .avatar {width: 26px;height: 26px;}
-
 #page.forum-thread .page-content .forum-thread .forum-thread-header .thread-control-bar {padding: 12px 12px 12px 13px;}
-.forum-thread-item .toggle-collapse-gutter {width: 30px;}
+.forum-thread-item>.gutter .gutter-sc-logo .icon {width: 272px;height: 250px;opacity: .08;}
+.forum-thread-item .toggle-collapse-gutter,
+.forum-thread-item.style-type-small>.gutter,
+button.vote.vertical {width: 35px;}
 .forum-thread-item .toggle-collapse-gutter .toggle-collapse {padding: 1px 10px;}
 .forum-thread-item.style-type-small {padding: 10px 0 10px 38px;}
 .forum-thread-item>.gutter {width: 100px;}
@@ -179,7 +183,6 @@
 .content-block.image,
 .content-block.video{display: inline-flex;}
 .content-block:not(.text) {margin: 15px 0 0px 0;}
-.member-profile-openable.can-shrink {margin-left: -2px;}
 .action-button, .action-button--size-s {height: 40px;}
 .action-button--outline {padding: 3px 15px;}
 
