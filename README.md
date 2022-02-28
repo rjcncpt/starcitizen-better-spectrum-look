@@ -13,7 +13,7 @@ Firefox: https://addons.mozilla.org/de/firefox/addon/styl-us/
 Install the browser extension, click the Stylus icon in your browser, click the Manage button, click Import, copy the code from spectrum.txt into the import window. Save and the Spectrum website should now look slightly different.
 
 ---
-Alternatively, you can also use the broi browser extension "Code Injector". As URL you have to use this: https://robertsspaceindustries.com/spectrum/community/SC
+Alternatively you can use the browser extension "Code Injector". As URL you have to use this: https://robertsspaceindustries.com/spectrum/community/SC
 
 ---
 Take a look at the screenshots. Before/After.
