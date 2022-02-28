@@ -12,6 +12,10 @@ Firefox: https://addons.mozilla.org/de/firefox/addon/styl-us/
 
 Install the browser extension, click the Stylus icon in your browser, click the Manage button, click Import, copy the code from spectrum.txt into the import window. Save and the Spectrum website should now look slightly different.
 
+---
+Alternatively, you can also use the broi browser extension "Code Injector". As URL you have to use this: https://robertsspaceindustries.com/spectrum/community/SC
+
+---
 Take a look at the screenshots. Before/After.
 
 Update: I've placed the gallery images side by side instead of one below the other. It looks much nicer this way when a post contains multiple photos. See the last screenshot
