@@ -1,5 +1,5 @@
 @-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community/SC") {
-/* SPECTRUM v2.0.3 */
+/* SPECTRUM v5 c.0.3 */
 /* Import this CSS code into the browser extension Stylus to get a better coloring of the Spectrum web page */
 /* For example: https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/better-look-and-feel-of-the-spectrum-website */
 /* Updates: https://github.com/rjcncpt/starcitizen-better-spectrum-look */
