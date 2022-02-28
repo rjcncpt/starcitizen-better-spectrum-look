@@ -1,5 +1,5 @@
 @-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community/SC") {
-/* SPECTRUM v2.0.2 */
+/* SPECTRUM v2.0.3 */
 /* Import this CSS code into the browser extension Stylus to get a better coloring of the Spectrum web page */
 /* For example: https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/better-look-and-feel-of-the-spectrum-website */
 /* Updates: https://github.com/rjcncpt/starcitizen-better-spectrum-look */
@@ -55,6 +55,8 @@
 .theme-dark .member-avatar .avatar {width: 56px;height: 56px;}
 .c-sidebar-header__avatar {padding-left: 10px;width:55px;}
 .theme-dark .c-sidebar-header{padding:10px 0 10px 0;}
+#app.theme-dark #app-content #page.lobby #page-main .lobby-header .lobby-name {padding-top: 7px;}
+#app #app-content #page.lobby #page-main .lobby-header-messages {padding: 0 25px 10px;}
 
 .theme-dark .message-item>.content>.top .member-name span.displayname {font-weight: 600;}
 
@@ -62,6 +64,15 @@
 .theme-dark button.bookmark.active>svg>use{fill: #d79815;stroke: #d79815;}
 .sidebar-list .sidebar-item>.column.notification>.unread-flag {font-size: 1rem;}
 .message-item>.gutter {width: 60px;}
+.quick-access-header .online-count,
+.breadcrumb .trail .breadcrumb-link{font-size: 1rem;}
+.theme-dark .quick-access-header .online-count {color: #39c98f; font-weight: bold;}
+
+/* icons */
+.theme-dark .member-presence.online use {fill: #39c98f;}
+.theme-dark .member-presence.playing use {fill: #bc97e9;}
+.theme-dark .member-presence.away use {fill: #e3aa38;}
+.theme-dark .member-presence.offline use {fill: #b93c3c;}
 
 /* border */
 .theme-dark #app-content>#page.community>#page-main .community-list.community-list-lobbies .community-item:first-child,
