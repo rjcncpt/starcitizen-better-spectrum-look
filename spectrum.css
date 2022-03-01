@@ -135,7 +135,8 @@
 #app.theme-dark #app-content #page.lobby #page-main .lobby-header,
 .theme-dark .emoji-mart,
 .theme-dark .emoji-mart .emoji-mart-search input,
-.theme-dark .message-media{border-color: #1a2638;}
+.theme-dark .message-media,
+.theme-dark .content-block:not(.text){border-color: #1a2638;}
 
 .theme-dark .member-avatar .avatar,
 .theme-dark .member-avatar .avatar-badges,
