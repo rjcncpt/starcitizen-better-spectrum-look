@@ -1,5 +1,5 @@
 @-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community/SC"), url-prefix("https://robertsspaceindustries.com/spectrum/settings/direct-messages") {
-/* SPECTRUM v5 c.0.5 */
+/* SPECTRUM v5 c.0.6 */
 /* The CSS is exclusively adapted to the Dark theme */
 /* Import this CSS code into the browser extension Stylus to get a better coloring of the Spectrum web page */
 /* For example: https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/better-look-and-feel-of-the-spectrum-website */
@@ -32,7 +32,8 @@
 .theme-dark .emoji-mart,
 .theme-dark .emoji-mart .emoji-mart-search input,
 .theme-dark .emoji-mart .emoji-mart-scroll .emoji-mart-category .emoji-mart-category-label *,
-.theme-dark .emoji-mart .emoji-mart-preview{background-color: #0b111a;}
+.theme-dark .emoji-mart .emoji-mart-preview,
+.theme-dark .forum-thread-item-tracked-reference{background-color: #0b111a;}
 
 .theme-dark #app-content>#page.community>#page-main .community-list h3,
 .theme-dark #page.forum-channel .row.columns-header,
@@ -49,10 +50,11 @@
 .theme-dark .list-navigator .widgets button.action,
 .theme-dark .member-profile .profile-quick-msg textarea,
 .theme-dark #page.settings #page-main .settings-main .settings-sidebar,
-.theme-dark #app-content #page.settings #page-main .settings-main .settings-content .section{background-color: #151f2e;}
+.theme-dark #app-content #page.settings #page-main .settings-main .settings-content .section,
+.theme-dark .sidebar-list .sidebar-item.active,
+.theme-dark .message-item.status-default:not(.edit-mode):hover{background-color: #151f2e;}
 
 .theme-dark .content-block:not(.text) {background-color: rgba(11,17,26,.5);}
-.theme-dark .sidebar-list .sidebar-item.active {background-color: #182436;}
 /* backgrounds end */
 
 .theme-dark .messages-list .separator.new-messages.faded .new-messages .label,
@@ -69,6 +71,8 @@
 .theme-dark .c-sidebar-header{padding:10px 0 10px 0;}
 #app.theme-dark #app-content #page.lobby #page-main .lobby-header .lobby-name {padding-top: 7px;}
 #app #app-content #page.lobby #page-main .lobby-header-messages {padding: 0 25px 10px;}
+#app #app-content #page.lobby #page-main .messages-list .message-item {padding-top: 13px;}
+.lobby-member-presences>.members-list .lobby-presence-item .member-avatar .avatar{height:27px;}
 
 .theme-dark .message-item>.content>.top .member-name span.displayname {font-weight: 600;}
 
@@ -130,7 +134,8 @@
 .theme-dark .forum-thread-item>.content .content-footer>.actions>.group,
 #app.theme-dark #app-content #page.lobby #page-main .lobby-header,
 .theme-dark .emoji-mart,
-.theme-dark .emoji-mart .emoji-mart-search input{border-color: #1a2638;}
+.theme-dark .emoji-mart .emoji-mart-search input,
+.theme-dark .message-media{border-color: #1a2638;}
 
 .theme-dark .member-avatar .avatar,
 .theme-dark .member-avatar .avatar-badges,
@@ -139,8 +144,20 @@
 .theme-dark #page-main .community-info .community-avatar,
 .theme-dark #page.forum-channel .row .column.subject .subject-media-preview,
 #page.forum-channel .row .column.last-activity>.member .member-avatar .avatar,
-.theme-dark .sidebar-list .sidebar-item>.column.avatar>a{border:0;}
+.theme-dark .sidebar-list .sidebar-item>.column.avatar>a,
+.theme-dark .reaction,
+.theme-dark button.select.active,
+.theme-dark button.select,
+.theme-dark .forum-thread-item .action, .theme-dark .forum-thread-item .forum-actions-button>.btn,
+.theme-dark .forum-thread-item-tracked-reference{border:0;}
 /* borders end */
+
+/* buttons padding */
+.theme-dark .forum-thread-item .action, .theme-dark .forum-thread-item .forum-actions-button>.btn,
+div.button-group-selector button,
+.reaction,
+.theme-dark .forum-thread-item-tracked-reference{padding: 7px 10px 6px 10px;height: 30px;}
+/* buttons padding end */
 
 .theme-dark .forum-label{color: #82acc3;}
 .theme-dark #app-content>#page.community>#page-main .community-list ul .community-item .default-link .description {color: #d6e3eb;line-height: 1.5em;}
@@ -165,6 +182,7 @@
 .theme-dark button.vote.active,
 .theme-dark .reaction.active{border-color: #4c80b7;}
 .theme-dark button.vote .count{font-weight: 600;}
+.message-item>.content>.bottom .reactions{margin-top: 5px;}
 
 #page.forum-channel .row .column.last-activity>.member .member-avatar .avatar {width: 26px;height: 26px;}
 #page.forum-thread .page-content .forum-thread .forum-thread-header .thread-control-bar {padding: 12px 12px 12px 13px;}
