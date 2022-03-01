@@ -23,10 +23,26 @@ Take a look at the screenshots. Before/After.
 Update: I've placed the gallery images side by side instead of one below the other. It looks much nicer this way when a post contains multiple photos. See the last screenshot
 
 ## Before and After
-![This is an image](https://dto9r5vaiz7bu.cloudfront.net/15qel1zl0953k/tavern_upload_large.png)
-![This is an image](https://dto9r5vaiz7bu.cloudfront.net/a2ccne06r8pln/tavern_upload_large.png)
+![This is an image](https://i.imgur.com/BWT3Qls.png)
+![This is an image](https://i.imgur.com/4H2rGCW.png)
 
-![This is an image](https://dto9r5vaiz7bu.cloudfront.net/0r1jpm6m6qu8t/tavern_upload_large.png)
-![This is an image](https://dto9r5vaiz7bu.cloudfront.net/kitzvtipye2uv/tavern_upload_large.png)
+### Spectrum Chat (before)
+![This is an image](https://i.imgur.com/UvOdh0W.png)
 
+### Spectrum Chat (after)
+![This is an image](https://i.imgur.com/N6E7yQg.png)
+
+### Forum categoeries (before)
+![This is an image](https://i.imgur.com/Th6PD6F.png)
+
+### Forum categoeries (after)
+![This is an image](https://i.imgur.com/80G6rlD.png)
+
+### Forum post (before)
+![This is an image](https://i.imgur.com/DrCJDXU.png)
+
+### Forum post (after)
+![This is an image](https://i.imgur.com/8LH8lM0.png)
+
+### Forum galerie (after)
 ![This is an image](https://dto9r5vaiz7bu.cloudfront.net/zk1twtuhxaqop/tavern_upload_large.png)
