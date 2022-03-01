@@ -1,6 +1,8 @@
 # Besserers Aussehen der Spectrum Webseite (Star Citizen)
 Ich habe den CSS-Code der Star Citizen Spectrum Website ein wenig überarbeitet, da ich mit dem ursprünglichen Farbschema nicht zufrieden bin. Ich habe das aufdringliche Blau der Website ein wenig abgeschwächt.
 
+Discord: https://discord.com/invite/c5JzewAT9D
+
 
 ## Was wird benötigt?
 
