@@ -22,7 +22,13 @@ Wirf einen Blick auf die Screenshots. Vorher/Nachher.
 
 Update: Ich habe die Bilder in der Galerie nebeneinander platziert, anstatt eines unter dem anderen. So sieht es viel schöner aus, wenn ein Beitrag mehrere Fotos enthält. Siehe den letzten Screenshot
 
-## Vorher/Nachher
+
+### Diskussionen und Feedback:
+https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/better-look-and-feel-of-the-spectrum-website
+
+---
+
+##  Vorher/Nachher
 
 ### Spectrum Buttons & Reaktionen
 ![This is an image](https://i.imgur.com/4JKLtch.png)
