@@ -1,13 +1,14 @@
-/* ==UserStyle==
+/*
 @name           Spectrum - Better Dark Theme
 @namespace      https://github.com/rjcncpt/starcitizen-better-spectrum-look
-@version        v5 c.0.7
-@description    The CSS is exclusively adapted to the Dark theme. Import this CSS code into the browser extension Stylus to get a better coloring of the Spectrum web page
+@version        v5 c.0.8
+@description    Install the browser extension, click the stylus icon in your browser, click the Manage button, then click "Create New Style" and copy the code into the editor window. Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.
 @author         rjcncpt
-@license        CC0-1.0 License
-==/UserStyle== */
+@discord        https://discord.com/invite/c5JzewAT9D
+@license        CC0-1.0 License         
+*/
 
-@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community/SC"), url-prefix("https://robertsspaceindustries.com/spectrum/settings/direct-messages") {
+@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community"), url-prefix("https://robertsspaceindustries.com/spectrum/settings/direct-messages") {
 /* Custom CSS */
 /* backgrounds */
 .theme-dark#app #app-header,
@@ -70,6 +71,7 @@
 /* backgrounds end */
 
 /* borders */
+.theme-dark pre,
 .theme-dark .emoji-mart,
 .theme-dark .message-item,
 .theme-dark .quick-access,
@@ -79,6 +81,7 @@
 .theme-dark .content-block:not(.text),
 .theme-dark .c-sidebar-list-body:after,
 .theme-dark #page-main .community-info,
+.theme-dark .public-DraftEditor-content pre,
 .theme-dark .emoji-mart .emoji-mart-search input,
 .theme-dark .list-navigator .widgets button.action,
 .theme-dark #page.forum-channel .row.columns-header,
@@ -88,7 +91,8 @@
 .theme-dark .list-navigator .widgets .navigation .left-triangle:before,
 .theme-dark .forum-thread-item > .content .content-footer > .actions > .group,
 .theme-dark #app-content > #page.community > #page-main .community-list ul .community-item,
-.theme-dark #app-content > #page.community > #page-main .community-list.community-list-lobbies .community-item:first-child{
+.theme-dark #app-content > #page.community > #page-main .community-list.community-list-lobbies .community-item:first-child
+{
     border-color: #1a2638;
 }
 
@@ -123,6 +127,80 @@
     font-size: .9em;
 }
 /* font-size end */
+
+/* buttons, reactions */
+.theme-dark button.bookmark.active > svg > use,
+.theme-dark .notification-subscription.active > button > svg > use{
+    fill: #d79815;
+    stroke: #d79815;
+}
+.reaction,
+div.button-group-selector button,
+.theme-dark .forum-thread-item .action,
+.theme-dark .forum-thread-item-tracked-reference,
+.theme-dark .forum-thread-item .forum-actions-button > .btn{
+    padding: 7px 10px 6px 10px;
+    height: 30px;
+}
+.theme-dark .reaction.active,
+.theme-dark button.vote.active{
+    border-color: #4c80b7;
+}
+.theme-dark button.vote .count{
+    font-weight: 600;
+}
+button.vote.vertical,
+.forum-thread-item .toggle-collapse-gutter,
+.forum-thread-item.style-type-small > .gutter{
+    width: 35px;
+}
+.action-button,
+.action-button--size-s{
+    height: 40px;
+}
+.action-button--outline{
+    padding: 3px 15px;
+}
+/* buttons, reactions end */
+
+/* status */
+.c-sidebar-header__avatar--online,
+.theme-dark .member-presence.online use,
+#sidebar .member-presence-menu-button.online{
+    fill: #39c98f;
+}
+.c-sidebar-header__avatar--paying,
+.theme-dark .member-presence.playing use,
+#sidebar .member-presence-menu-button.paying{
+    fill: #bc97e9;
+}
+.c-sidebar-header__avatar--away,
+.theme-dark .member-presence.away use,
+#sidebar .member-presence-menu-button.away{
+    fill: #eaa41a;
+}
+.theme-dark .member-presence.offline use,
+.c-sidebar-header__avatar--do_not_disturb,
+#sidebar .member-presence-menu-button.do_not_disturb{
+    fill: #313f54;
+}
+.theme-dark .quick-access-header .online-count{
+    color: #39c98f;
+    font-weight: bold;
+}
+.lobby-member-presences > .members-list .lobby-presence-item .member-presence-info{
+    font-style: normal;
+    color: #bc97e9;
+    margin-top: -3px;
+}
+/* status end */
+
+.theme-dark #page.forum-channel .row .column.subject .subject-media-preview{
+    background: transparent;
+}
+#page.forum-channel .row .column.subject .subject-media-preview .default-preview{
+    display: none;
+}
 
 .theme-dark .messages-list .separator.new-messages.faded,
 .theme-dark .messages-list .separator.new-messages.faded .new-messages .label{
@@ -174,12 +252,6 @@
 .theme-dark .message-item > .content > .top .member-name span.displayname{
     font-weight: 600;
 }
-
-.theme-dark .notification-subscription.active > button > svg > use,
-.theme-dark button.bookmark.active > svg > use{
-    fill: #d79815;
-    stroke: #d79815;
-}
 .message-item > .gutter{
     width: 60px;
 }
@@ -187,8 +259,8 @@
 .message-input .message-row > .input > .emoji-mart{
     width: 324px!important;
 }
-.theme-dark .emoji-mart .emoji-mart-anchor-selected,
-.theme-dark .emoji-mart .emoji-mart-anchor:hover{
+.theme-dark .emoji-mart .emoji-mart-anchor:hover,
+.theme-dark .emoji-mart .emoji-mart-anchor-selected{
     color: #39c98f;
 }
 .emoji-mart-category .emoji-mart-emoji span{
@@ -213,50 +285,6 @@
     margin-top: 6px;
 }
 
-.lobby-member-presences > .members-list .lobby-presence-item .member-presence-info{
-    font-style: normal;
-    color: #bc97e9;
-    margin-top: -3px;
-}
-
-/* status */
-.theme-dark .member-presence.online use,
-#sidebar .member-presence-menu-button.online,
-.c-sidebar-header__avatar--online{
-    fill: #39c98f;
-}
-.theme-dark .member-presence.playing use,
-#sidebar .member-presence-menu-button.paying,
-.c-sidebar-header__avatar--paying{
-    fill: #bc97e9;
-}
-.theme-dark .member-presence.away use,
-#sidebar .member-presence-menu-button.away,
-.c-sidebar-header__avatar--away{
-    fill: #eaa41a;
-}
-.theme-dark .member-presence.offline use,
-#sidebar .member-presence-menu-button.do_not_disturb,
-.c-sidebar-header__avatar--do_not_disturb{
-    fill: #313f54;
-}
-.theme-dark .quick-access-header .online-count{
-    color: #39c98f;
-    font-weight: bold;
-}
-/* status end */
-
-/* buttons padding */
-.theme-dark .forum-thread-item .action,
-.theme-dark .forum-thread-item .forum-actions-button > .btn,
-div.button-group-selector button,
-.reaction,
-.theme-dark .forum-thread-item-tracked-reference{
-    padding: 7px 10px 6px 10px;
-    height: 30px;
-}
-/* buttons padding end */
-
 .theme-dark .forum-label{
     color: #82acc3;
 }
@@ -274,8 +302,8 @@ div.button-group-selector button,
 .lobby-member-presences > .members-list{
     opacity: .4;
 }
-#page.forum-channel .row .column.tracked-posts:hover,
-.lobby-member-presences > .members-list:hover{
+.lobby-member-presences > .members-list:hover,
+#page.forum-channel .row .column.tracked-posts:hover{
     opacity: 1;
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
@@ -291,20 +319,19 @@ div.button-group-selector button,
         opacity: 1;
     }
 }
+@-webkit-keyframes fadeInOpacity{
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
-.theme-dark .public-DraftEditor-content pre,
-.theme-dark pre{
+.theme-dark pre,
+.theme-dark .public-DraftEditor-content pre{
     background-color: #1e2b40;
-    border-color: #1a2638;
     color: #e8eaf0;
-}
-
-.theme-dark button.vote.active,
-.theme-dark .reaction.active{
-    border-color: #4c80b7;
-}
-.theme-dark button.vote .count{
-    font-weight: 600;
 }
 .message-item > .content > .bottom .reactions{
     margin-top: 5px;
@@ -321,11 +348,6 @@ div.button-group-selector button,
     width: 272px;
     height: 250px;
     opacity: .08;
-}
-.forum-thread-item .toggle-collapse-gutter,
-.forum-thread-item.style-type-small > .gutter,
-button.vote.vertical{
-    width: 35px;
 }
 .forum-thread-item .toggle-collapse-gutter .toggle-collapse{
     padding: 1px 10px;
@@ -351,32 +373,12 @@ button.vote.vertical{
     font-weight: 600;
     margin-left: -2px;
 }
+.forum-thread-item .action.icon-only>.flex>.icon {
+    height: 16px;
+}
 .content-block:first-child{
     margin-top: 20px;
 }
-.content-block.image,
-.content-block.video{
-    display: inline-flex;
-}
-.content-block:not(.text){
-    margin: 15px 0 0px 0;
-}
-.action-button,
-.action-button--size-s{
-    height: 40px;
-}
-.action-button--outline{
-    padding: 3px 15px;
-}
-
-/* thumbnails */
-.theme-dark #page.forum-channel .row .column.subject .subject-media-preview{
-    background: transparent;
-}
-#page.forum-channel .row .column.subject .subject-media-preview .default-preview 
-    display: none;
-}
-/* thumbnails end */
 
 .theme-dark #page.forum-channel .row.columns-header .column .btn.refresh{
     animation: 2s linear 0s infinite normal forwards;
@@ -406,8 +408,8 @@ button.vote.vertical{
 }
 
 /* image rendering */
-.forum-thread-item > .gutter .member-avatar .avatar,
-.theme-dark .member-avatar .avatar{
+.theme-dark .member-avatar .avatar,
+.forum-thread-item > .gutter .member-avatar .avatar{
     image-rendering: auto;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
@@ -419,5 +421,66 @@ button.vote.vertical{
     .theme-dark .content-block:not(.text){
         width: 49%;
     }
+}
+}
+
+@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community") {
+/* gallery */
+.content-block.image,
+.content-block.video{
+    display: inline-flex;
+}
+.content-block:not(.text){
+    margin: 15px 0 0px 0;
+}
+
+/* responsive yt video */
+.media-embed-wrapper .media-embed-code {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.media-embed-wrapper .media-embed-code iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+/* responsive yt video end */
+/* gallery end */
+}
+
+/*
+@name           RSI Domain - Remove Background images
+@namespace      https://github.com/rjcncpt/starcitizen-better-spectrum-look
+@version        v1.0
+@author         rjcncpt
+@discord        https://discord.com/invite/c5JzewAT9D
+@license        CC0-1.0 License         
+*/
+
+@-moz-document url-prefix("https://robertsspaceindustries.com/") {
+body,
+#home #home-background,
+#community #home-background,
+#home #home-background .bg-home-stars,
+#community #home-background .bg-home-stars{
+    background: none;
+    background-color: #05111d;
+}
+#contentbody,
+.content-block4>.content{
+    background: none;
+}
+#devHub .devHub-section__wrapper,
+#devHub .devHub-section .devHub-navLink span,
+#devHub .devHub-section__header::after{
+    background-color: #05111d;
+}
+#devHub .devHub-section .devHub-navLink span::before {
+    border-color: transparent #05111d #05111d transparent;
 }
 }
