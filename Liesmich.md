@@ -22,27 +22,34 @@ Wirf einen Blick auf die Screenshots. Vorher/Nachher.
 
 Update: Ich habe die Bilder in der Galerie nebeneinander platziert, anstatt eines unter dem anderen. So sieht es viel schöner aus, wenn ein Beitrag mehrere Fotos enthält. Siehe den letzten Screenshot
 
-## Vorher und Nachher
-![This is an image](https://i.imgur.com/BWT3Qls.png)
-![This is an image](https://i.imgur.com/4H2rGCW.png)
+## Vorher/Nachher
 
-### Spectrum Chat (Vorher)
-![This is an image](https://i.imgur.com/UvOdh0W.png)
+### Spectrum Buttons & Reaktionen
+![This is an image](https://i.imgur.com/4JKLtch.png)
 
-### Spectrum Chat (Nachher)
-![This is an image](https://i.imgur.com/N6E7yQg.png)
+### Spectrum Chat
+![This is an image](https://i.imgur.com/0a2OJAx.png)
 
-### Forum Kategorien (Vorher)
-![This is an image](https://i.imgur.com/Th6PD6F.png)
+### Spectrum (vorher)
+![This is an image](https://i.imgur.com/BKB460I.png)
 
-### Forum Kategorien (Nachher)
-![This is an image](https://i.imgur.com/80G6rlD.png)
+### Spectrum (nachher)
+![This is an image](https://i.imgur.com/Ay3Jn0K.png)
 
-### Forum Beitrag (Vorher)
-![This is an image](https://i.imgur.com/DrCJDXU.png)
+### Spectrum Chat (vorher)
+![This is an image](https://i.imgur.com/X8Gn5ua.png)
 
-### Forum Beitrag (Nachher)
-![This is an image](https://i.imgur.com/8LH8lM0.png)
+### Spectrum Chat (nachher)
+![This is an image](https://i.imgur.com/VQeGlZJ.png)
 
-### Forum Galerie (Nachher)
-![This is an image](https://dto9r5vaiz7bu.cloudfront.net/zk1twtuhxaqop/tavern_upload_large.png)
+### Forum Kategorien (vorher)
+![This is an image](https://i.imgur.com/OUl7IPx.png)
+
+### Forum Kategorien (nachher)
+![This is an image](https://i.imgur.com/p7mAZmI.png)
+
+### Forum Beitrag (vorher)
+![This is an image](https://i.imgur.com/dXrzO3Q.png)
+
+### Forum Beitrag (nachher)
+![This is an image](https://i.imgur.com/ygDeJMP.png)
