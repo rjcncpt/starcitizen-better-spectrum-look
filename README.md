@@ -22,6 +22,12 @@ Take a look at the screenshots. Before/After.
 
 Update: I've placed the gallery images side by side instead of one below the other. It looks much nicer this way when a post contains multiple photos. See the last screenshot
 
+
+### Discussions and feedback:
+https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/better-look-and-feel-of-the-spectrum-website
+
+---
+
 ## Before and After
 
 ### Spectrum Buttons & reactions
