@@ -12,7 +12,7 @@ Chrome: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfob
 
 Firefox: https://addons.mozilla.org/de/firefox/addon/styl-us/
 
-Install the browser extension, click the Stylus icon in your browser, click the Manage button, click Import, copy the code from spectrum.txt into the import window. Save and the Spectrum website should now look slightly different.
+Install the browser extension, click the stylus icon in your browser, click the Manage button, then click "Create New Style" and copy the code from spectrum.css into the editor window. Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.
 
 ---
 Alternatively you can use the browser extension "Code Injector". As URL you have to use this: https://robertsspaceindustries.com/spectrum/community/SC
