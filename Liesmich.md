@@ -18,9 +18,10 @@ Installiere die Browsererweiterung, klicke auf das Stylus-Symbol in deinem Brows
 Alternativ kannst du auch die Browsererweiterung "Code Injector" verwenden. Als URL musst du diese verwenden: https://robertsspaceindustries.com/spectrum/community/SC
 
 ---
-Wirf einen Blick auf die Screenshots. Vorher/Nachher.
+## Optionale Option
+Du kannst die Breite der Spectrum Webseite per Prozentwert anpassen, wenn du einen Monitor mit hoher Auflösung benutzt. Ändere dazu einfach den Prozentwert.
 
-Update: Ich habe die Bilder in der Galerie nebeneinander platziert, anstatt eines unter dem anderen. So sieht es viel schöner aus, wenn ein Beitrag mehrere Fotos enthält. Siehe den letzten Screenshot
+![image](https://user-images.githubusercontent.com/3922642/157431068-64c06623-f026-481a-89cc-793f33dfe6d4.png)
 
 
 ### Diskussionen und Feedback:
