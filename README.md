@@ -18,8 +18,8 @@ Install the browser extension, click the stylus icon in your browser, click the 
 Alternatively you can use the browser extension "Code Injector". As URL you have to use this: https://robertsspaceindustries.com/spectrum/community/SC
 
 ---
-## Optionale Option
-Du kannst die Breite der Spectrum Webseite per Prozentwert anpassen, wenn du einen Monitor mit hoher Auflösung benutzt. Ändere dazu einfach den Prozentwert.
+## Optional option
+You can adjust the width of the Spectrum web page by percentage if you are using a high resolution monitor. Just change the percentage value.
 
 ![image](https://user-images.githubusercontent.com/3922642/157431068-64c06623-f026-481a-89cc-793f33dfe6d4.png)
 
