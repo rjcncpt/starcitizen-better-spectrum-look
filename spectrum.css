@@ -596,7 +596,8 @@ h1.page-title{
 }
 .account-profile .profile-content .entry .label,
 .account-profile .profile-content .entry.bio .value,
-#home .home-wrapper .live-stats #squadronStats .name{
+#home .home-wrapper .live-stats #squadronStats .name,
+.flipboard-boxes .box .info .excerpt{
     color: #dddddd;
 }
 .account-profile .profile-content .entry .label{
@@ -613,7 +614,8 @@ h1.page-title{
     text-shadow: 0px 0px 20px #cd0d00;
     font-weight: 600;
 }
-.c-brand-menu----rsi .c-brand-menu__link {
+.c-brand-menu----rsi .c-brand-menu__link,
+#home .home-wrapper .live-stats #squadronStats .nav-item, #home .home-wrapper .live-stats #starcitizenStats .nav-item{
     font-weight: 666;
 }
 .c-menu-link----rsi {
@@ -621,5 +623,15 @@ h1.page-title{
 }
 .c-features-carousel__item-title{
     margin-bottom: 0px;
+}
+#home .home-wrapper .live-stats #starcitizenStats .text{
+    color: #6AADD1;
+    line-height: 1.3em;
+}
+.glow-page-title .inner-title .title, .glow-page-title .inner-title .subtitle {
+    left: 0px;
+}
+.flipboard-boxes .box.type-E .info {
+    padding-top: 40px;
 }
 }
