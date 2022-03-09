@@ -13,16 +13,16 @@
 /* OPTIONAL - Change page width for better readability at large monitor resolution */
 
 .theme-dark#app{
-    width: 100%;     /* Recommended: 65% *//* Change the percentage value for monitors with a resolution over 1920 pixels */
+    width: 100%;     /* Recommended: 65% *//* Change the percentage value for monitors with a resolution over 1920 pixels. Default is 100% */
 }
 @media only screen and (max-width: 1920px){
 .theme-dark#app{
-    width: 100%;     /* Recommended: 75% *//* Change the percentage value for monitors with a resolution of max 1920 pixels */
+    width: 100%;     /* Recommended: 75% *//* Change the percentage value for monitors with a resolution of max 1920 pixels. Default is 100% */
 }
 }
 @media only screen and (max-width: 1700px){
 .theme-dark#app{
-    width: 100%;    /* Recommended: 100% *//* Change the percentage value for monitors with a resolution of max 1700 pixels */
+    width: 100%;    /* Recommended: 100% *//* Change the percentage value for monitors with a resolution of max 1700 pixels. Default is 100% */
 }
 }
 
@@ -595,7 +595,8 @@ h1.page-title{
     background: rgb(4 14 24);
 }
 .account-profile .profile-content .entry .label,
-.account-profile .profile-content .entry.bio .value{
+.account-profile .profile-content .entry.bio .value,
+#home .home-wrapper .live-stats #squadronStats .name{
     color: #dddddd;
 }
 .account-profile .profile-content .entry .label{
@@ -611,5 +612,14 @@ h1.page-title{
     color: #cd0d00;
     text-shadow: 0px 0px 20px #cd0d00;
     font-weight: 600;
+}
+.c-brand-menu----rsi .c-brand-menu__link {
+    font-weight: 666;
+}
+.c-menu-link----rsi {
+    color: #89aebd;
+}
+.c-features-carousel__item-title{
+    margin-bottom: 0px;
 }
 }
