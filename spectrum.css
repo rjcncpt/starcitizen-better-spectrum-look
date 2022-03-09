@@ -13,16 +13,16 @@
 /* OPTIONAL - Change page width for better readability at large monitor resolution */
 
 .theme-dark#app{
-    width: 65%;     /* Change the percentage value for monitors with a resolution over 1920 pixels. Default is 100% */
+    width: 100%;     /* Recommended: 65% *//* Change the percentage value for monitors with a resolution over 1920 pixels */
 }
 @media only screen and (max-width: 1920px){
 .theme-dark#app{
-    width: 75%;     /* Change the percentage value for monitors with a resolution of max 1920 pixels. Default is 100% */
+    width: 100%;     /* Recommended: 75% *//* Change the percentage value for monitors with a resolution of max 1920 pixels */
 }
 }
 @media only screen and (max-width: 1700px){
 .theme-dark#app{
-    width: 100%;    /* Change the percentage value for monitors with a resolution of max 1700 pixels. Default is 100% */
+    width: 100%;    /* Recommended: 100% *//* Change the percentage value for monitors with a resolution of max 1700 pixels */
 }
 }
 
