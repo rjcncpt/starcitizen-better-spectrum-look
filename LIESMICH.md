@@ -33,7 +33,7 @@ https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/bett
 
 ### Saubere RSI Webseite
 Links alt / rechts neu
-![image](https://user-images.githubusercontent.com/3922642/157433580-53c8f192-7e57-4fdd-aba4-ee1f56bdc686.png)
+![This is an image](https://i.imgur.com/rFzXKEG.jpg)
 
 ### Spectrum Buttons & Reaktionen
 ![This is an image](https://i.imgur.com/4JKLtch.png)
