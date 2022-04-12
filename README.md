@@ -32,6 +32,7 @@ https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/bett
 
 ### Cleaner RSI Website
 Left old / right new
+
 I have removed the background graphics for a clean look
 ![This is an image](https://i.imgur.com/rFzXKEG.jpg)
 
@@ -41,11 +42,13 @@ Top old / Bottom new
 
 ### Spectrum Chat
 Left old / right new
+
 Larger avatars
 ![This is an image](https://i.imgur.com/0a2OJAx.png)
 
 ### Forum post
 Top old / Bottom new
+
 Andere Schriftfarbe für eine bessere Lesbarkeit, größere Avatare, bessere Galerie 
 ![This is an image](https://i.imgur.com/dXrzO3Q.png)
 ![This is an image](https://i.imgur.com/ygDeJMP.png)
