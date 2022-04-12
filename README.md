@@ -32,34 +32,35 @@ https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/bett
 
 ### Cleaner RSI Website
 Left old / right new
+I have removed the background graphics for a clean look
 ![This is an image](https://i.imgur.com/rFzXKEG.jpg)
 
 ### Spectrum Buttons & reactions
+Top old / Bottom new
 ![This is an image](https://i.imgur.com/4JKLtch.png)
 
 ### Spectrum Chat
+Left old / right new
+Larger avatars
 ![This is an image](https://i.imgur.com/0a2OJAx.png)
 
-### Spectrum (before)
-![This is an image](https://i.imgur.com/BKB460I.png)
+### Forum post
+Top old / Bottom new
+Andere Schriftfarbe für eine bessere Lesbarkeit, größere Avatare, bessere Galerie 
+![This is an image](https://i.imgur.com/dXrzO3Q.png)
+![This is an image](https://i.imgur.com/ygDeJMP.png)
 
-### Spectrum (after)
+### Spectrum
+Top old / Bottom new
+![This is an image](https://i.imgur.com/BKB460I.png)
 ![This is an image](https://i.imgur.com/Ay3Jn0K.png)
 
-### Spectrum Chat (before)
+### Spectrum Chat
+Top old / Bottom new
 ![This is an image](https://i.imgur.com/X8Gn5ua.png)
-
-### Spectrum Chat (after)
 ![This is an image](https://i.imgur.com/VQeGlZJ.png)
 
-### Forum categoeries (before)
+### Forum categoeries
+Top old / Bottom new
 ![This is an image](https://i.imgur.com/OUl7IPx.png)
-
-### Forum categoeries (after)
 ![This is an image](https://i.imgur.com/p7mAZmI.png)
-
-### Forum post (before)
-![This is an image](https://i.imgur.com/dXrzO3Q.png)
-
-### Forum post (after)
-![This is an image](https://i.imgur.com/ygDeJMP.png)
