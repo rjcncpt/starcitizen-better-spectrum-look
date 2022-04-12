@@ -49,7 +49,7 @@ Larger avatars
 ### Forum post
 Top old / Bottom new
 
-Andere Schriftfarbe für eine bessere Lesbarkeit, größere Avatare, bessere Galerie 
+Different font color for better readability, bigger avatars, better gallery 
 ![This is an image](https://i.imgur.com/dXrzO3Q.png)
 ![This is an image](https://i.imgur.com/ygDeJMP.png)
 
