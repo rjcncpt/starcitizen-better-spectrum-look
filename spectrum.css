@@ -9,7 +9,7 @@
 @license        CC0-1.0 License         
 */
 
-@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community") {
+@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community"), url-prefix("https://robertsspaceindustries.com/spectrum/search?member"), url-prefix("https://robertsspaceindustries.com/spectrum/messages/") {
 /* OPTIONAL - Change page width for better readability at large monitor resolution */
 
 .theme-dark#app{
@@ -33,7 +33,7 @@
 /* OPTIONAL - Change page width for better readability at large monitor resolution end */
 }
 
-@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community") {
+@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community"), url-prefix("https://robertsspaceindustries.com/spectrum/search?member"), url-prefix("https://robertsspaceindustries.com/spectrum/messages/") {
 /* OPTIONAL - Better Gallery */
 .content-block.image,
 .content-block.video{
@@ -59,7 +59,7 @@
 /* OPTIONAL - Better Gallery end */
 }
 
-@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community"), url-prefix("https://robertsspaceindustries.com/spectrum/settings/direct-messages") {
+@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community"), url-prefix("https://robertsspaceindustries.com/spectrum/settings/direct-messages"), url-prefix("https://robertsspaceindustries.com/spectrum/search?member"), url-prefix("https://robertsspaceindustries.com/spectrum/messages/") {
 /* Custom CSS */
 /* backgrounds */
 body{
