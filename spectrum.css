@@ -1,7 +1,7 @@
 /*
 @name           Spectrum - Better Dark Theme
 @namespace      https://github.com/rjcncpt/starcitizen-better-spectrum-look
-@version        v5 c.0.9
+@version        v5 c.1.0
 @description    Install the browser extension, click the stylus icon in your browser, click the Manage button, then click "Create New Style" and copy the code into the editor window.
                 Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.
 @author         rjcncpt
@@ -12,12 +12,17 @@
 @-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community"), url-prefix("https://robertsspaceindustries.com/spectrum/search?member"), url-prefix("https://robertsspaceindustries.com/spectrum/messages/") {
 /* OPTIONAL - Change page width for better readability at large monitor resolution */
 
+body{
+background: none;
+    background-color: #05111d;
+}
+
 .theme-dark#app{
-    width: 100%;     /* Recommended: 65% *//* Change the percentage value for monitors with a resolution over 1920 pixels. Default is 100% */
+    width: 75%;     /* Recommended: 65% *//* Change the percentage value for monitors with a resolution over 1920 pixels. Default is 100% */
 }
 @media only screen and (max-width: 1920px){
 .theme-dark#app{
-    width: 100%;     /* Recommended: 75% *//* Change the percentage value for monitors with a resolution of max 1920 pixels. Default is 100% */
+    width: 75%;     /* Recommended: 75% *//* Change the percentage value for monitors with a resolution of max 1920 pixels. Default is 100% */
 }
 }
 @media only screen and (max-width: 1700px){
@@ -59,13 +64,13 @@
 /* OPTIONAL - Better Gallery end */
 }
 
-@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community"), url-prefix("https://robertsspaceindustries.com/spectrum/settings/direct-messages"), url-prefix("https://robertsspaceindustries.com/spectrum/search?member"), url-prefix("https://robertsspaceindustries.com/spectrum/messages/") {
+@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community"), url-prefix("https://robertsspaceindustries.com/spectrum/settings/direct-messages"), url-prefix("https://robertsspaceindustries.com/spectrum/search?member"), url-prefix("https://robertsspaceindustries.com/spectrum/messages/"), url-prefix("https://issue-council.robertsspaceindustries.com/"), url-prefix("https://robertsspaceindustries.com/pledge") {
 /* Custom CSS */
 /* backgrounds */
-body{
+/*body{
     background: rgb(11,17,26)!important;
     background: linear-gradient(90deg, rgba(11,17,26,1) 0%, rgba(11,17,26,1) 45%, rgba(8,14,23,1) 55%, rgba(8,14,23,1) 100%)!important;
-}
+}*/
 .theme-dark#app #app-header,
 .theme-dark ::-webkit-scrollbar-thumb,
 .theme-dark #page #page-main .page-header .page-header-inner .actions .action.on{
@@ -395,13 +400,18 @@ button.vote.vertical,
     height: 30px;
 }
 #page.forum-channel .row .column.last-activity{
-    width: 20%;
+    width: 15%;
 }
-#page.forum-channel .row .column.tracked-posts{
-    /*align-self: baseline;
-    margin-top: 2px;*/
+#page.forum-channel .row .column.stats{
+    width: 10%;
+    padding-right: 20px;
+}
+#page.forum-channel .row .column.vote {
+    min-width: 100px;
+}
+/*#page.forum-channel .row .column.tracked-posts{
     display: none;
-}
+}*/
 #page.forum-channel .channel-header .info .info-header .current-label .label-name{
     padding: 8px 5px 8px 9px;
 }
@@ -420,14 +430,10 @@ button.vote.vertical,
     color: #8fc2ef;
 }
 
-#page.forum-channel .row .column.tracked-posts{
-    opacity: .6;
-}
 .lobby-member-presences > .members-list{
     opacity: .4;
 }
-.lobby-member-presences > .members-list:hover,
-#page.forum-channel .row .column.tracked-posts:hover{
+.lobby-member-presences > .members-list:hover{
     opacity: 1;
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
@@ -554,27 +560,36 @@ button.vote.vertical,
         width: 98%;
     }
 }
+
+
+/* Issue Council */
+.c-header {position: fixed;top: 35px;}
+
+/* Pladge Store */
+.ReactVirtualized__Grid.ReactVirtualized__List{height: 62vh!important;}
+.RSIStoreTheme .AppModal .AppModal-content {height: auto;}
 }
 
 /*
 @name           RSI Domain - Remove background images
-@namespace      https://github.com/rjcncpt/starcitizen-better-spectrum-look
-@version        v1.0
 @author         rjcncpt
 @discord        https://discord.com/invite/c5JzewAT9D
 @license        CC0-1.0 License         
 */
 
 @-moz-document url-prefix("https://robertsspaceindustries.com/") {
-body,
 #home #home-background,
 #community #home-background,
 #home #home-background .bg-home-stars,
 #community #home-background .bg-home-stars,
+#contentbody,
 #contentbody.public-profile,
+#contentbody.account-section,
+.account-section .content-wrapper,
+.content-block1 .content,
 h1.page-title{
     background: none;
-    background-color: #05111d;
+    background-color: #05111d!important;
 }
 #contentbody,
 .content-block4>.content{
@@ -634,4 +649,19 @@ h1.page-title{
 .flipboard-boxes .box.type-E .info {
     padding-top: 40px;
 }
+.wrapper {max-width: 1140px;padding: 0 50px 0 50px;}
+.c-platform .l-container {max-width: 1370px;padding: 0 50px 0 50px;}
+.c-platform .l-container--navigation {padding: 0;}
+#billing .content .row,
+#billing .content .row.dark{margin: 0 0 15px 0px;background: rgba(12,27,43,0.5);}
+#billing .content .row.active .more{background: linear-gradient(180deg, rgb(8 22 36) 0%, #071420 45%, #06121c 55%, #06121c 100%)!important}
+#billing .content .row.active .more .with-images {margin: 0;}
+#billing .content .row.active .more .with-images .item {margin-left: 0;}
+#billing .content .row.active .more .with-images .item .text {width: auto;}
+#billing .content .row.active .more .with-images .item .text .title {font-size: 1.2em;font-weight: normal;}
+#billing .content .row.active .more .with-images .item .text .kind,
+#billing .content .row.active .more .with-images .item .text .liner{font-size: .8em;font-style: normal;padding-bottom: 10px;}
+#billing .content .row.active .more .with-images .item .text .liner {color: #ffffff;}
+#billing .content .row.active .more .with-images .item .image{width: 216px;height: 133px;}
+#billing .content .row.active .more .without-images .item .title {font-weight: normal;}
 }
