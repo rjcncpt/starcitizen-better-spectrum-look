@@ -1,7 +1,7 @@
 /*
 @name           Spectrum - Better Dark Theme
 @namespace      https://github.com/rjcncpt/starcitizen-better-spectrum-look
-@version        v5 c.1.0
+@version        v5 c.0.9
 @description    Install the browser extension, click the stylus icon in your browser, click the Manage button, then click "Create New Style" and copy the code into the editor window.
                 Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.
 @author         rjcncpt
@@ -409,9 +409,14 @@ button.vote.vertical,
 #page.forum-channel .row .column.vote {
     min-width: 100px;
 }
-/*#page.forum-channel .row .column.tracked-posts{
+#page.forum-channel .row .column.tracked-posts .tracked-posts-btn{
+    border: 2px solid;
+    height: 20px;
+    border-radius: 50px;
+}
+#page.forum-channel .row .column.tracked-posts img{
     display: none;
-}*/
+}
 #page.forum-channel .channel-header .info .info-header .current-label .label-name{
     padding: 8px 5px 8px 9px;
 }
