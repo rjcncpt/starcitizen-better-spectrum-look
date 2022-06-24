@@ -445,6 +445,19 @@ button.vote.vertical,
     animation-timing-function: ease-in;
     animation-duration: .2s;
 }
+.lobby-message{
+    overflow: inherit;
+}
+.lobby-message__wrapper{
+    padding: 10px 14px;
+}
+.lobby-message__dismiss{
+    min-height: 68px;
+}
+#app #app-content #page.lobby #page-main .lobby-header:not(.more-info-open) .lobby-header-messages{
+    width: 40%;
+    left: inherit;
+}
 
 @keyframes fadeInOpacity{
     0% {
