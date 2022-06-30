@@ -30,12 +30,6 @@ https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/bett
 
 ## Before and After
 
-### Cleaner RSI Website
-Left old / right new
-
-I have removed the background graphics for a clean look
-![This is an image](https://i.imgur.com/rFzXKEG.jpg)
-
 ### Spectrum Buttons & reactions
 Top old / Bottom new
 ![This is an image](https://i.imgur.com/4JKLtch.png)
@@ -67,3 +61,14 @@ Top old / Bottom new
 Top old / Bottom new
 ![This is an image](https://i.imgur.com/OUl7IPx.png)
 ![This is an image](https://i.imgur.com/p7mAZmI.png)
+
+### Cleaner RSI Website
+Left old / right new
+
+I have removed the background graphics for a clean look
+![This is an image](https://i.imgur.com/rFzXKEG.jpg)
+
+### Cleaner My Hangar Page
+Left old / right new
+
+![This is an image](https://i.imgur.com/K3i10m8.jpg)
