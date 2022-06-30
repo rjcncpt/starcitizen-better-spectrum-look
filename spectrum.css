@@ -1,7 +1,7 @@
 /*
 @name           Spectrum - Better Dark Theme
 @namespace      https://github.com/rjcncpt/starcitizen-better-spectrum-look
-@version        v5 c.1.0.2
+@version        v5 c.1.0.3
 @description    Install the browser extension, click the stylus icon in your browser, click the Manage button, then click "Create New Style" and copy the code into the editor window.
                 Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.
 @author         rjcncpt
@@ -320,6 +320,7 @@ button.vote.vertical,
 
 .theme-dark #page.forum-channel .row .column.subject .subject-media-preview{
     background: transparent;
+    align-self: center;
 }
 #page.forum-channel .row .column.subject .subject-media-preview .default-preview{
     display: none;
@@ -715,4 +716,47 @@ h1.page-title{
 #billing.pledges .content .row .arrow {
     top: 105px;
 }
+}
+
+@-moz-document url-prefix("https://robertsspaceindustries.com/") {
+/* Extension: Star Citizen Hangar XPLORer */
+/* https://chrome.google.com/webstore/detail/star-citizen-hangar-xplor/bhkgemjdepodofcnmekdobmmbifemhkc */
+
+/* Design */
+/* Remove the code inside this comment if you want to have the original design */
+    .js-bulk-ui,
+    .js-bulk-ui .inner{background: none;}
+    .content-block1>.corner.corner-top-right,
+    .content-block1>.corner.corner-bottom-right{display: none;}
+/* Design end */
+
+.js-bulk-ui{margin-left: 20px;}
+.js-bulk-ui .value .label, .js-bulk-ui .value .label-short{
+    width: auto;
+    padding-left: 0;
+    display: block;
+    text-align: center;
+}
+.js-bulk-ui .value .amount{
+    display: block;
+    text-align: center;
+    font-weight: 900;
+}
+.js-bulk-ui.cash .actions,
+.js-bulk-ui.count .actions{
+    margin-left: 10px!important;
+}
+.js-bulk-ui .value {text-align: center;}
+.js-bulk-ui.count .count .amount,
+.js-bulk-ui.count .count .label-short,
+.js-bulk-ui.count .count .label{
+    display: inline-block;
+    text-align:left;
+    margin-left:5px;
+    margin-bottom:15px;
+}
+.js-bulk-ui.count .count .label-short{margin-right: 10px;}
+.date-col.melt-col label::after{content: ":";}
+.date-col.melt-col label{margin-right: 5px;}
+/* Star Citizen Hangar XPLORer end */
 }
