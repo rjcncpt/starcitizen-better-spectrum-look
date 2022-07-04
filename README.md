@@ -19,9 +19,6 @@ Firefox: https://addons.mozilla.org/de/firefox/addon/styl-us/
 Install the browser extension, download the [Spectrum.json](https://raw.githubusercontent.com/rjcncpt/starcitizen-better-spectrum-look/main/Spectrum.json), click the Stylus icon in your browser, click the Manage button, and import the JSON file. The Spectrum website should now look different.
 
 ---
-Alternatively Extension: You can use the browser extension "Code Injector". As URL you have to use this: https://robertsspaceindustries.com/spectrum/community/SC
-
----
 
 ### Discussions and feedback:
 https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/better-look-and-feel-of-the-spectrum-website
