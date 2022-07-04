@@ -24,15 +24,21 @@ Install the browser extension, download the [Spectrum.json](https://raw.githubus
 https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/better-look-and-feel-of-the-spectrum-website
 
 ---
-## Screenshots
+## Optional
 
-### Optional
+### Adjust width
 You can adjust the width of the Spectrum web page by percentage if you are using a high resolution monitor. Just change the percentage value.
 
 ![image](https://user-images.githubusercontent.com/3922642/177206091-3b2f22b9-fb76-4b9f-8fec-67c5ccd95ef0.png)
 
 
-## Before and After
+### Better gallery
+If you want to have only the better gallery, but the rest should stay as it is, you can remove all sections except this one
+
+![image](https://user-images.githubusercontent.com/3922642/177206218-ec4bedb0-4ce3-4970-93a0-12de358ed201.png)
+
+
+## Screenshots - Before and After
 Top old / Bottom new
 
 ### Spectrum Buttons & reactions
