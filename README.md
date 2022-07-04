@@ -2,6 +2,7 @@
 Better look for the Spectrum website. I've reworked the CSS code of the Star Citizen Spectrum website a bit, as I'm not happy with the original color scheme. I toned down the intrusive blue of the website a bit.
 
 Discord: https://discord.com/invite/c5JzewAT9D
+
 For new Star Citizen player: https://www.fwkart.de/star-citizen-kostenlos-testen-referral-code/
 
 
