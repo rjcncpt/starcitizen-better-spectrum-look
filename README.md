@@ -44,6 +44,7 @@ Top old / Bottom new
 ![image](https://user-images.githubusercontent.com/3922642/177153078-762068d0-0d64-49f6-a770-26e396ac4b7b.png)
 
 
+
 ### Forum post
 Top old / Bottom new
 
@@ -51,14 +52,15 @@ Top old / Bottom new
 
 ![image](https://user-images.githubusercontent.com/3922642/177153250-66c51782-1f80-4d9b-943b-2d2f80356731.png)
 
+
+
 ### Staff Forum post
 Top old / Bottom new
-
-Remove the yellow font color
 
 ![image](https://user-images.githubusercontent.com/3922642/177205440-7e589add-3e0f-4067-a720-56b4520231d3.png)
 
 ![image](https://user-images.githubusercontent.com/3922642/177153441-525ed4b8-a7ed-4d48-89c7-49c892ba08df.png)
+
 
 
 ### Spectrum
@@ -69,12 +71,14 @@ Top old / Bottom new
 ![image](https://user-images.githubusercontent.com/3922642/177153665-95b80154-ee0b-4517-9e1c-1b0b246f8565.png)
 
 
+
 ### Spectrum Chat
 Top old / Bottom new
 
 ![image](https://user-images.githubusercontent.com/3922642/177205627-0b5e220f-000f-4157-9952-2d7402a2b5d3.png)
 
 ![image](https://user-images.githubusercontent.com/3922642/177153717-176462dd-a06f-4b0e-9ca0-5ee3a5762954.png)
+
 
 
 ### Forum categoeries
@@ -85,6 +89,7 @@ Top old / Bottom new
 ![image](https://user-images.githubusercontent.com/3922642/177154174-77c95e69-90f7-49a0-8230-5729a383db2a.png)
 
 
+
 ### Cleaner RSI Website
 Top old / Bottom new
 
@@ -92,6 +97,7 @@ I have removed the background graphics for a clean look
 ![image](https://user-images.githubusercontent.com/3922642/177154267-71162471-1368-4df9-8e0f-e6c3cc85293e.png)
 
 ![image](https://user-images.githubusercontent.com/3922642/177154278-93dd470d-d9d7-48f4-8a2a-b70c930b6a12.png)
+
 
 
 ### Cleaner My Hangar Page
