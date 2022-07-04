@@ -16,7 +16,7 @@ Firefox: https://addons.mozilla.org/de/firefox/addon/styl-us/
 
 Install the browser extension, click the Stylus icon in your browser, click the Manage button, then click Create New Style, and copy the code from [spectrum.css](spectrum.css) into the editor window. Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.
 
-Alternatively: download the [Spectrum v5 c.1.0.5.json](Spectrum v5 c.1.0.5.json) and import it. Done
+Alternatively: download the [Spectrum_v5_c.1.0.5.json](Spectrum_v5_c.1.0.5.json) and import it. Done
 
 ---
 Alternatively Extension: You can use the browser extension "Code Injector". As URL you have to use this: https://robertsspaceindustries.com/spectrum/community/SC
