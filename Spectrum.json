@@ -2,7 +2,7 @@
   {
     "enabled": true,
     "installDate": 1644066555495,
-    "name": "22222robertsspaceindustries.com",
+    "name": "robertsspaceindustries.com",
     "sections": [
       {
         "code": "/*\n@name           Spectrum - Better Dark Theme\n@namespace      https://github.com/rjcncpt/starcitizen-better-spectrum-look\n@version        v5 c.1.0.5\n@description    Install the browser extension, click the stylus icon in your browser, click the Manage button, then click \"Create New Style\" and copy the code into the editor window.\n                Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.\n@author         rjcncpt\n@discord        https://discord.com/invite/c5JzewAT9D\n@license        CC0-1.0 License         \n*/"
