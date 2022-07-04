@@ -1,5 +1,5 @@
 # Better Dark Theme - Spectrum & RSI Website
-Better look for the Spectrum website. I've reworked the CSS code of the Star Citizen Spectrum website a bit, as I'm not happy with the original color scheme. I toned down the intrusive blue of the website a bit.
+Better look for the Spectrum and RSI website. I've reworked the CSS code for the Star Citizen Spectrum and RSI website because I'm not happy with the original color scheme. I toned down the intrusive blue of the website. Avatars are round, fonts are more readable, I removed the yellow Staff font color and background graphics. In general, Spectrum is much tidier now. The gallery is completely new and now shows the images side by side instead of one below the other, which saves a lot of space.
 
 Discord: https://discord.com/invite/c5JzewAT9D
 
@@ -16,23 +16,24 @@ Firefox: https://addons.mozilla.org/de/firefox/addon/styl-us/
 
 ## Install
 
-Install the browser extension, click the Stylus icon in your browser, click the Manage button, then click Create New Style, and copy the code from [spectrum.css](spectrum.css) into the editor window. Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.
-
-Alternatively: download the [Spectrum_v5_c.1.0.4.1.json](Spectrum_v5_c.1.0.4.1.json) and import it. Done
+Install the browser extension, download the [Spectrum.json](Spectrum.json), click the Stylus icon in your browser, click the Manage button, and import the JSON file. The Spectrum website should now look different.
 
 ---
 Alternatively Extension: You can use the browser extension "Code Injector". As URL you have to use this: https://robertsspaceindustries.com/spectrum/community/SC
 
 ---
-## Optional option
-You can adjust the width of the Spectrum web page by percentage if you are using a high resolution monitor. Just change the percentage value.
-
-![image](https://user-images.githubusercontent.com/3922642/157431068-64c06623-f026-481a-89cc-793f33dfe6d4.png)
 
 ### Discussions and feedback:
 https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/better-look-and-feel-of-the-spectrum-website
 
 ---
+## Screenshots
+
+### Optional
+You can adjust the width of the Spectrum web page by percentage if you are using a high resolution monitor. Just change the percentage value.
+
+![image](https://user-images.githubusercontent.com/3922642/157431068-64c06623-f026-481a-89cc-793f33dfe6d4.png)
+
 
 ## Before and After
 
