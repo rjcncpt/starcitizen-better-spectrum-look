@@ -1,7 +1,7 @@
 /*
 @name           Spectrum - Better Dark Theme
 @namespace      https://github.com/rjcncpt/starcitizen-better-spectrum-look
-@version        v5 c.1.0.3
+@version        v5 c.1.0.4
 @description    Install the browser extension, click the stylus icon in your browser, click the Manage button, then click "Create New Style" and copy the code into the editor window.
                 Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.
 @author         rjcncpt
@@ -239,6 +239,18 @@ div.button-group-selector button,
 .forum-thread-item .forum-actions-button {
     height: 30px;
 }
+.theme-dark button.vote,
+.theme-dark .forum-thread-item .action{
+    background-color: #131a26;
+    border-color: #1b2536;
+}
+.theme-dark button.vote:hover{
+    background-color: #2a456a!important;
+    border-color: #4c80b7!important;
+}
+.theme-dark .forum-thread-item button.vote{
+    border-color: rgb(37 50 72);
+}
 .theme-dark .reaction.active,
 .theme-dark button.vote.active{
     border-color: #4c80b7;
@@ -268,6 +280,9 @@ button.vote.vertical,
 }
 .theme-dark #page.forum-channel .channel-header .actions .create .icon use {
     fill: #dddddd;
+}
+.forum-thread-item>.content .content-header>.right .actions{
+    top: 0;
 }
 /* buttons, reactions end */
 
@@ -302,6 +317,49 @@ button.vote.vertical,
     margin-top: -3px;
 }
 /* status end */
+
+/* avatars */
+.member-avatar .avatar,
+.theme-dark .member-avatar .avatar,
+.forum-thread-item > .gutter .member-avatar .avatar,
+.theme-dark #page-main .community-info .community-avatar,
+.theme-dark .sidebar-list .sidebar-item>.column.avatar>a,
+#notifications .notifications-main .notifications-list .notifications-item .item-avatar{
+    border-radius: 50%;
+}
+.theme-dark .member-avatar .avatar{
+    width: 56px;
+    height: 56px;
+    margin-top: -5px;
+}
+.theme-dark .member-avatar .avatar-badges{
+    margin-top: 10px;
+}
+.forum-thread-item>.content .content-header>.left .member-avatar .avatar{
+    width: 56px;
+    height: 56px;
+    margin-top: 0px;
+}
+#notifications .notifications-main .notifications-list .notifications-item .item-avatar{
+    width: 34px;
+    height: 34px;
+}
+.c-sidebar-header__avatar{
+    padding-left: 10px;
+    width: 55px;
+}
+.lobby-member-presences > .members-list .lobby-presence-item .member-avatar .avatar{
+    height: 27px;
+}
+#page.forum-channel .row .column.last-activity > .member .member-avatar .avatar{
+    width: 26px;
+    height: 26px;
+}
+.forum-thread-item > .gutter .member-avatar .avatar{
+    width: 100px;
+    height: 100px;
+}
+/* avatars end */
 
 #app #app-header a.logo {
     position: relative!important;
@@ -349,21 +407,6 @@ button.vote.vertical,
 .l-sidebar{
     grid-template-rows: 89px auto 70px;
 }
-.theme-dark .member-avatar .avatar-badges{
-    margin-top: 10px;
-}
-.theme-dark .member-avatar .avatar{
-    width: 56px;
-    height: 56px;
-}
-#notifications .notifications-main .notifications-list .notifications-item .item-avatar {
-    width: 34px;
-    height: 34px;
-}
-.c-sidebar-header__avatar{
-    padding-left: 10px;
-    width: 55px;
-}
 .theme-dark .c-sidebar-header{
     padding: 10px 0 10px 0;
 }
@@ -375,9 +418,6 @@ button.vote.vertical,
 }
 #app #app-content #page.lobby #page-main .messages-list .message-item{
     padding-top: 13px;
-}
-.lobby-member-presences > .members-list .lobby-presence-item .member-avatar .avatar{
-    height: 27px;
 }
 
 .theme-dark .message-item > .content > .top .member-name span.displayname{
@@ -492,10 +532,6 @@ button.vote.vertical,
     margin-top: 5px;
 }
 
-#page.forum-channel .row .column.last-activity > .member .member-avatar .avatar{
-    width: 26px;
-    height: 26px;
-}
 .member-profile .profile-badges .profile-badge img {
     width: 18px;
     height: 18px;
@@ -516,10 +552,6 @@ button.vote.vertical,
 }
 .forum-thread-item > .gutter{
     width: 100px;
-}
-.forum-thread-item > .gutter .member-avatar .avatar{
-    width: 100px;
-    height: 100px;
 }
 .forum-thread-item > .gutter .gutter-highlight-label{
     left: 100px;
@@ -593,6 +625,7 @@ button.vote.vertical,
 
 /* Pladge Store */
 .ReactVirtualized__Grid.ReactVirtualized__List{height: 62vh!important;}
+.lobby-member-presences > .members-list .ReactVirtualized__Grid.ReactVirtualized__List{height: 1182px!important;}
 .RSIStoreTheme .AppModal .AppModal-content {height: auto;}
 }
 
@@ -725,12 +758,15 @@ h1.page-title{
 /* Design */
 /* Remove the code inside this comment if you want to have the original design */
     .js-bulk-ui,
-    .js-bulk-ui .inner{background: none;}
+    .js-bulk-ui .inner{background: none;border: 0px;}
     .content-block1>.corner.corner-top-right,
     .content-block1>.corner.corner-bottom-right{display: none;}
 /* Design end */
 
-.js-bulk-ui{margin-left: 20px;}
+.js-bulk-ui{
+    margin-left: 20px;
+    top: 284px!important;
+}
 .js-bulk-ui .value .label, .js-bulk-ui .value .label-short{
     width: auto;
     padding-left: 0;
