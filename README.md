@@ -36,9 +36,10 @@ You can adjust the width of the Spectrum web page by percentage if you are using
 
 
 ## Before and After
+Top old / Bottom new
 
 ### Spectrum Buttons & reactions
-Top old / Bottom new
+
 ![image](https://user-images.githubusercontent.com/3922642/177153047-3fc3c62e-f74e-42c8-9827-10e5dc821d02.png)
 
 ![image](https://user-images.githubusercontent.com/3922642/177153078-762068d0-0d64-49f6-a770-26e396ac4b7b.png)
@@ -46,7 +47,6 @@ Top old / Bottom new
 
 
 ### Forum post
-Top old / Bottom new
 
 ![image](https://user-images.githubusercontent.com/3922642/177153234-0958a116-fcc5-4574-a096-b11336699727.png)
 
@@ -55,7 +55,6 @@ Top old / Bottom new
 
 
 ### Staff Forum post
-Top old / Bottom new
 
 ![image](https://user-images.githubusercontent.com/3922642/177205440-7e589add-3e0f-4067-a720-56b4520231d3.png)
 
@@ -64,7 +63,6 @@ Top old / Bottom new
 
 
 ### Spectrum
-Top old / Bottom new
 
 ![image](https://user-images.githubusercontent.com/3922642/177205549-c653ea48-199b-49bb-9860-23bab47746e1.png)
 
@@ -73,7 +71,6 @@ Top old / Bottom new
 
 
 ### Spectrum Chat
-Top old / Bottom new
 
 ![image](https://user-images.githubusercontent.com/3922642/177205627-0b5e220f-000f-4157-9952-2d7402a2b5d3.png)
 
@@ -82,7 +79,6 @@ Top old / Bottom new
 
 
 ### Forum categoeries
-Top old / Bottom new
 
 ![image](https://user-images.githubusercontent.com/3922642/177205671-ced1711b-bfb2-49b2-b1bd-a042ffc3cdb0.png)
 
@@ -91,7 +87,6 @@ Top old / Bottom new
 
 
 ### Cleaner RSI Website
-Top old / Bottom new
 
 I have removed the background graphics for a clean look
 ![image](https://user-images.githubusercontent.com/3922642/177154267-71162471-1368-4df9-8e0f-e6c3cc85293e.png)
@@ -101,7 +96,6 @@ I have removed the background graphics for a clean look
 
 
 ### Cleaner My Hangar Page
-Top old / Bottom new
 
 ![image](https://user-images.githubusercontent.com/3922642/177154338-5a5f8f6d-b50b-4821-8f6f-79c0db012326.png)
 
