@@ -32,43 +32,52 @@ https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/bett
 
 ### Spectrum Buttons & reactions
 Top old / Bottom new
-![This is an image](https://i.imgur.com/4JKLtch.png)
+![image](https://user-images.githubusercontent.com/3922642/177153047-3fc3c62e-f74e-42c8-9827-10e5dc821d02.png)
+![image](https://user-images.githubusercontent.com/3922642/177153078-762068d0-0d64-49f6-a770-26e396ac4b7b.png)
 
-### Spectrum Chat
-Left old / right new
-
-Larger avatars
-![This is an image](https://i.imgur.com/0a2OJAx.png)
 
 ### Forum post
 Top old / Bottom new
 
-Different font color for better readability, bigger avatars, better gallery 
-![This is an image](https://i.imgur.com/dXrzO3Q.png)
-![This is an image](https://i.imgur.com/ygDeJMP.png)
+![image](https://user-images.githubusercontent.com/3922642/177153234-0958a116-fcc5-4574-a096-b11336699727.png)
+![image](https://user-images.githubusercontent.com/3922642/177153250-66c51782-1f80-4d9b-943b-2d2f80356731.png)
+
+### Staff Forum post
+Top old / Bottom new
+
+Remove the yellow font color
+![image](https://user-images.githubusercontent.com/3922642/177153424-720b3fe6-baad-431b-9082-a18322c18588.png)
+![image](https://user-images.githubusercontent.com/3922642/177153441-525ed4b8-a7ed-4d48-89c7-49c892ba08df.png)
+
 
 ### Spectrum
 Top old / Bottom new
-![This is an image](https://i.imgur.com/BKB460I.png)
-![This is an image](https://i.imgur.com/Ay3Jn0K.png)
+![image](https://user-images.githubusercontent.com/3922642/177153650-c0339dc6-3c4f-4d8b-9c6d-078d0f56204d.png)
+![image](https://user-images.githubusercontent.com/3922642/177153665-95b80154-ee0b-4517-9e1c-1b0b246f8565.png)
+
 
 ### Spectrum Chat
 Top old / Bottom new
-![This is an image](https://i.imgur.com/X8Gn5ua.png)
-![This is an image](https://i.imgur.com/VQeGlZJ.png)
+![image](https://user-images.githubusercontent.com/3922642/177153705-b2f7d656-d5c5-47e4-a8d1-a32cb8b4530c.png)
+![image](https://user-images.githubusercontent.com/3922642/177153717-176462dd-a06f-4b0e-9ca0-5ee3a5762954.png)
+
 
 ### Forum categoeries
 Top old / Bottom new
-![This is an image](https://i.imgur.com/OUl7IPx.png)
-![This is an image](https://i.imgur.com/p7mAZmI.png)
+![image](https://user-images.githubusercontent.com/3922642/177154165-e09b3c09-56a5-4f0e-bffd-6a16a77b1f6b.png)
+![image](https://user-images.githubusercontent.com/3922642/177154174-77c95e69-90f7-49a0-8230-5729a383db2a.png)
+
 
 ### Cleaner RSI Website
-Left old / right new
+Top old / Bottom new
 
 I have removed the background graphics for a clean look
-![This is an image](https://i.imgur.com/rFzXKEG.jpg)
+![image](https://user-images.githubusercontent.com/3922642/177154267-71162471-1368-4df9-8e0f-e6c3cc85293e.png)
+![image](https://user-images.githubusercontent.com/3922642/177154278-93dd470d-d9d7-48f4-8a2a-b70c930b6a12.png)
+
 
 ### Cleaner My Hangar Page
-Left old / right new
+Top old / Bottom new
 
-![This is an image](https://i.imgur.com/K3i10m8.jpg)
+![image](https://user-images.githubusercontent.com/3922642/177154338-5a5f8f6d-b50b-4821-8f6f-79c0db012326.png)
+![image](https://user-images.githubusercontent.com/3922642/177154350-aa89a9fe-859d-46a1-a3b1-44ea1520633a.png)
