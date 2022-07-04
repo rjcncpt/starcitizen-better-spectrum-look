@@ -29,7 +29,7 @@ https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/bett
 ### Optional
 You can adjust the width of the Spectrum web page by percentage if you are using a high resolution monitor. Just change the percentage value.
 
-![image](https://user-images.githubusercontent.com/3922642/157431068-64c06623-f026-481a-89cc-793f33dfe6d4.png)
+![image](https://user-images.githubusercontent.com/3922642/177206091-3b2f22b9-fb76-4b9f-8fec-67c5ccd95ef0.png)
 
 
 ## Before and After
