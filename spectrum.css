@@ -1,7 +1,7 @@
 /*
 @name           Spectrum - Better Dark Theme
 @namespace      https://github.com/rjcncpt/starcitizen-better-spectrum-look
-@version        v5 c.1.0.4.1
+@version        v5 c.1.0.5
 @description    Install the browser extension, click the stylus icon in your browser, click the Manage button, then click "Create New Style" and copy the code into the editor window.
                 Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.
 @author         rjcncpt
@@ -9,7 +9,7 @@
 @license        CC0-1.0 License         
 */
 
-@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community"), url-prefix("https://robertsspaceindustries.com/spectrum/search?member"), url-prefix("https://robertsspaceindustries.com/spectrum/messages/") {
+@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community"), url-prefix("https://robertsspaceindustries.com/spectrum/search?member"), url-prefix("https://robertsspaceindustries.com/spectrum/messages/"), url-prefix("https://robertsspaceindustries.com/spectrum/guide"), url-prefix("https://robertsspaceindustries.com/spectrum/messages") {
 /* OPTIONAL - Change page width for better readability at large monitor resolution */
 .theme-dark#app{
     width: 75%;     /* Recommended: 65% *//* Change the percentage value for monitors with a resolution over 1920 pixels. Default is 100% */
@@ -59,7 +59,7 @@
 /* OPTIONAL - Better Gallery end */
 }
 
-@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community"), url-prefix("https://robertsspaceindustries.com/spectrum/settings/direct-messages"), url-prefix("https://robertsspaceindustries.com/spectrum/search?member"), url-prefix("https://robertsspaceindustries.com/spectrum/messages/"), url-prefix("https://issue-council.robertsspaceindustries.com/"), url-prefix("https://robertsspaceindustries.com/pledge") {
+@-moz-document url-prefix("https://robertsspaceindustries.com/spectrum/community"), url-prefix("https://robertsspaceindustries.com/spectrum/settings/direct-messages"), url-prefix("https://robertsspaceindustries.com/spectrum/search?member"), url-prefix("https://robertsspaceindustries.com/spectrum/messages/"), url-prefix("https://issue-council.robertsspaceindustries.com/"), url-prefix("https://robertsspaceindustries.com/pledge"), url-prefix("https://robertsspaceindustries.com/spectrum/guide"), url-prefix("https://robertsspaceindustries.com/spectrum/messages") {
 /* Custom CSS */
 /* backgrounds */
 body{
@@ -80,7 +80,9 @@ body{
 #app.theme-dark #app-content #page.lobby #page-main .messages-list,
 .theme-dark #app-content > #page.community > #page-main .community-list,
 .lobby-member-presences > .members-list .members-list-group .members-list-group-header,
-.theme-dark #notifications .notifications-main .notifications-list .notifications-item:hover{
+.theme-dark #notifications .notifications-main .notifications-list .notifications-item:hover,
+.theme-dark .search-result-content,
+.theme-dark #app-content #page.search #page-main .search-results{
     background: #101824!important;
 }
 
@@ -128,7 +130,8 @@ body{
 .theme-dark #app-content #page.settings #page-main .settings-main .settings-content .section,
 .theme-dark #page.forum-thread .page-content .forum-thread .forum-thread-header .thread-control-bar,
 .theme-dark #page.forum-thread .page-content .forum-thread .forum-thread-replies .forum-thread-item,
-.theme-dark #notifications .notifications-main .notifications-list .notifications-item{
+.theme-dark #notifications .notifications-main .notifications-list .notifications-item,
+.theme-dark #app-content #page.search #page-main .search-sidebar{
     background-color: #151f2e;
 }
 
@@ -159,8 +162,13 @@ body{
 .theme-dark .forum-thread-item > .content .content-footer > .actions > .group,
 .theme-dark #app-content > #page.community > #page-main .community-list ul .community-item,
 .theme-dark #app-content > #page.community > #page-main .community-list.community-list-lobbies .community-item:first-child,
-.theme-dark #notifications .notifications-main .notifications-list .notifications-item
-{
+.theme-dark #notifications .notifications-main .notifications-list .notifications-item,
+.theme-dark #app-content #page.search #page-main .search-sidebar,
+.theme-dark .search-result-content,
+.theme-dark #app-content #page.search #page-main .search-header,
+.theme-dark #app-content #page.search #page-main .search-sidebar .sidebar-communities,
+.theme-dark #app-content #page.search #page-main .search-sidebar .sidebar-search-type .search-filters-title,
+.theme-dark #app-content #page.search #page-main .search-sidebar .sidebar-search-type{
     border-color: #1a2638;
 }
 
@@ -221,7 +229,8 @@ body{
 #app.theme-dark #app-content .quick-access .lobby-member-presences>.members-list .lobby-presence-item .member-name,
 .theme-dark #app-content > #page.community > #page-main .community-list ul .community-item .default-link .description,
 .theme-dark #notifications .notifications-main .notifications-list .notifications-item .item-details strong,
-.theme-dark #notifications .notifications-main .notifications-list .notifications-item .item-details .item-text{
+.theme-dark #notifications .notifications-main .notifications-list .notifications-item .item-details .item-text,
+.theme-dark .search-result-content .result-body{
     color: #dddddd!important;
 }
 /* Colors end */
@@ -248,12 +257,25 @@ div.button-group-selector button,
     background-color: #131a26;
     border-color: #1b2536;
 }
-.theme-dark button.vote:hover{
+.member-selector .item-selector-member .member-name .nickname{
+    color: #dddddd;
+}
+.theme-dark .item-selector .wrapper.selected,
+.theme-dark .item-selector .wrapper{
+    background-color: #161f2d;
+    border: 1px solid #242e40;
+}
+.theme-dark .item-selector .wrapper .action{
+    border-left: 1px solid #242e40;
+}
+.theme-dark .forum-thread-item button.vote,
+.theme-dark .action-button--outline{
+    border-color: rgb(37 50 72);
+}
+.theme-dark button.vote:hover,
+.theme-dark .action-button--outline:hover{
     background-color: #2a456a!important;
     border-color: #4c80b7!important;
-}
-.theme-dark .forum-thread-item button.vote{
-    border-color: rgb(37 50 72);
 }
 .theme-dark .reaction.active,
 .theme-dark button.vote.active{
@@ -270,11 +292,13 @@ button.vote.vertical,
 .action-button,
 .action-button--size-s{
     height: 35px;
+    margin-left: 10px;
 }
 .action-button--outline{
     padding: 3px 15px;
+    padding: 3px 10px;
 }
-.theme-dark #page.forum-channel .channel-header .actions .create {
+.theme-dark #page.forum-channel .channel-header .actions .create{
     background: #346a2a;
     color: #fff;
     height: 30px;
@@ -287,6 +311,19 @@ button.vote.vertical,
 }
 .forum-thread-item>.content .content-header>.right .actions{
     top: 0;
+}
+.action-button, .action-button--size-s {
+    height: 25px;
+}
+#notifications .notifications-main .action-button .icon {
+    width: 10px;
+    height: 15px;
+}
+.action-button__icon+.action-button__label {
+    display: none;
+}
+.search-result-content .jump{
+    padding: 8px 8px;
 }
 /* buttons, reactions end */
 
@@ -453,7 +490,7 @@ button.vote.vertical,
     width: 15%;
 }
 #page.forum-channel .row .column.stats{
-    width: 10%;
+    width: 9%;
     padding-right: 20px;
 }
 #page.forum-channel .row .column.vote {
@@ -631,13 +668,19 @@ button.vote.vertical,
 }
 
 /*
-@name           RSI Domain - Remove background images
+@name           RSI Domain
 @author         rjcncpt
 @discord        https://discord.com/invite/c5JzewAT9D
 @license        CC0-1.0 License         
 */
 
 @-moz-document url-prefix("https://robertsspaceindustries.com/") {
+#settings .block-head h3,
+#settings.referral-program h4,
+#settings.referral-program .referral-rank-wrapper .rank .progress .label{
+    font-size: 1.3em;
+}
+
 #home #home-background,
 #community #home-background,
 #home #home-background .bg-home-stars,
@@ -698,6 +741,9 @@ h1.page-title{
 #home .home-wrapper .live-stats #squadronStats .nav-item, #home .home-wrapper .live-stats #starcitizenStats .nav-item{
     font-weight: 666;
 }
+.c-header-wrapper.is-account-open .c-right-sidebar--account, .c-header-wrapper.is-account-open .c-right-sidebar--signin {
+    z-index: 999;
+}
 .c-menu-link----rsi {
     color: #89aebd;
 }
@@ -714,13 +760,20 @@ h1.page-title{
 .flipboard-boxes .box.type-E .info {
     padding-top: 40px;
 }
-.wrapper {max-width: 1140px;padding: 0 50px 0 50px;}
-.c-platform .l-container {max-width: 1370px;padding: 0 50px 0 50px;}
+.wrapper {max-width: 1140px;}
+.c-platform .l-container{
+    max-width: 1370px;
+    padding: 0 50px 0 50px;
+}
+.c-notification__inner {
+    padding: 25px 34px 25px 35px;
+}
 .c-platform .l-container--navigation {padding: 0;}
 .content-block1 {padding: 49px 49px 66px 49px;}
 #billing .content .row,
-#billing .content .row.dark{margin: 0 0 15px 0px;background: rgba(12,27,43,0.5);}
-#billing .content .row.active .more{background: linear-gradient(180deg, rgb(8 22 36) 0%, #071420 45%, #06121c 55%, #06121c 100%)!important}
+#billing .content .row.dark{margin: 0 0 15px 0px;background: rgba(12,27,43,0.5);border-radius: 10px;}
+#billing .content .row.active .more{background:none;}
+#billing .content .row.active .more .content-block1{border:0px;}
 #billing .content .row.active .more .with-images {margin: -46px -44px -66px -46px!important;}
 #billing .content .row.active .more .with-images .item {margin-left: 0;margin-bottom: 3px;}
 #billing .content .row.active .more .with-images .item .text {width: auto;margin-left: 25px;margin-bottom: 22px;margin-top: 20px;
@@ -734,6 +787,7 @@ h1.page-title{
 #billing .content .row.active .more .also-contains{margin-top: 90px;margin-left: -18px;}
 #billing .content .row.active .more .without-images .item{margin-left: -22px;}
 #billing .content .row.active .more .without-images .item .title {font-weight: normal;}
+#billing .content .row.executed{background: #0d293a;}
 .without-images{margin-bottom: -30px!important;}
 
 #billing.pledges .items-col{
@@ -750,6 +804,64 @@ h1.page-title{
 #billing.pledges .content .row .arrow {
     top: 105px;
 }
+
+/* REFERRAL PAGE */
+#settings.referral-program form#share-referral-form input{
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    font-weight: 700;
+}
+#settings.referral-program .referral-rank-wrapper,
+#settings.referral-program .recruits-list-wrapper{
+    padding: 0;
+    background: none;
+}
+#settings.referral-program .recruits-list-wrapper form#recruits-list-form a,
+#settings.referral-program .recruits-list-wrapper #users-list .user-row .user{font-size: .9em;}
+#settings.referral-program .recruits-list-wrapper form#recruits-list-form a:first-child{margin: 0 10px 12px 0;}
+#settings.referral-program .recruits-list-wrapper form#recruits-list-form a:first-child::before {height: 24px;}
+#settings.referral-program .recruits-list-wrapper #users-list .user-row .status {top: 38%;}
+#settings.referral-program p {font-size: .85em;line-height: 2em;}
+#settings.referral-program .referral-rank-wrapper .reward img {height: auto;}
+/* REFERRAL PAGE end */
+
+/* NOTIFICATION */
+.l-notification-bar {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 37px;
+}
+@media only screen and (max-width: 1400px){
+.c-notification__inner {
+    padding: 0 40px 0 40px;
+}
+.l-notification-bar {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+}
+.c-notification__inner {
+    display: block;
+    width: 100%;
+}
+.c-notification__content, .c-notification__actions {
+    display: flex;
+    width: 100%;
+}
+.c-notification__content{
+    margin-bottom: 15px
+}
+.c-notification__actions {
+    justify-content: flex-start;
+}
+.c-notification__message {
+    color: #d2f0ff;
+}
+/* NOTIFICATION end */
 }
 
 @-moz-document url-prefix("https://robertsspaceindustries.com/") {
