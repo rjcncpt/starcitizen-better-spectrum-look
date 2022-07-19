@@ -16,7 +16,7 @@ Firefox: https://addons.mozilla.org/de/firefox/addon/styl-us/
 
 ## Install
 
-Install the browser extension, download the [Spectrum.json](https://raw.githubusercontent.com/rjcncpt/starcitizen-better-spectrum-look/main/Spectrum.json), click the Stylus icon in your browser, click the Manage button, and import the JSON file. The Spectrum website should now look different.
+Install the Stylus browser extension, download the [Spectrum.json](https://raw.githubusercontent.com/rjcncpt/starcitizen-better-spectrum-look/main/Spectrum.json), click the Stylus icon in your browser, click the Manage button, and import the JSON file. The Spectrum website should now look different.
 
 ---
 
